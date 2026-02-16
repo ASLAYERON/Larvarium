@@ -1,0 +1,14 @@
+[remap]
+
+importer="import_gif_to_animated_texture"
+type="AnimatedTexture"
+uid="uid://s0rlwo04f17n"
+path="res://.godot/imported/image.gif-522cf4be3a6b41f1bca02ab1c9fd68f9.tres"
+
+[deps]
+
+source_file="res://niveaux/test/0_0/image.gif"
+dest_files=["res://.godot/imported/image.gif-522cf4be3a6b41f1bca02ab1c9fd68f9.tres"]
+
+[params]
+

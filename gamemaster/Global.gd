@@ -15,3 +15,11 @@ var levels_map = {
 
 var active_level = "test"
 var tp_offset = Vector2(0,0)
+
+var item_data = { # Tout les items qui peuvent etre dans l'inventaire
+	"red" = {
+		"name" : "Red Potion",
+		"image" : "res://assets/items/potion_rouge.gif",
+		
+	}
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://d3p1wrb0tei7n"
+path="res://.godot/imported/image.gif-3ce5b9e0c64599261dc75c90d1ca6387.tres"
+
+[deps]
+
+source_file="res://niveaux/test/0_1/image.gif"
+dest_files=["res://.godot/imported/image.gif-3ce5b9e0c64599261dc75c90d1ca6387.tres"]
+
+[params]
+
+frames_per_second=30

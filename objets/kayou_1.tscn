@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://4kcusbhb41v5"]
+
+[ext_resource type="Texture2D" uid="uid://bp0yeuho6pijo" path="res://assets/sprites/kayou1.gif" id="1_67j14"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lmdbn"]
+radius = 79.3095
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_x6khk"]
+radius = 53.1507
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nvm5n"]
+radius = 36.2491
+
+[node name="kayou1" type="StaticBody2D"]
+
+[node name="Kayou1" type="Sprite2D" parent="."]
+position = Vector2(32, -14)
+texture = ExtResource("1_67j14")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(13, 12)
+shape = SubResource("CircleShape2D_lmdbn")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(82, 46)
+shape = SubResource("CircleShape2D_x6khk")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(-46, 64)
+shape = SubResource("CircleShape2D_nvm5n")

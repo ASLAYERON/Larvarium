@@ -5,17 +5,18 @@
 [ext_resource type="Texture2D" uid="uid://c2ciu06sro1av" path="res://assets/sprites/player_sprite_face.gif" id="3_r4jla"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0yo5v"]
-radius = 29.5
-height = 85.0
+radius = 14.0
+height = 46.0
 
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_5ashv")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-limit_left = -1000
-limit_top = -1000
-limit_right = 1000
-limit_bottom = 1000
+zoom = Vector2(1.5, 1.5)
+limit_left = -512
+limit_top = -512
+limit_right = 512
+limit_bottom = 512
 limit_smoothed = true
 position_smoothing_enabled = true
 
@@ -41,10 +42,8 @@ one_shot = true
 [node name="sprites" type="Node2D" parent="."]
 
 [node name="PlayerSpriteFace" type="Sprite2D" parent="sprites"]
-scale = Vector2(2, 2)
 texture = ExtResource("3_r4jla")
 
 [node name="PlayerSpriteBack" type="Sprite2D" parent="sprites"]
 visible = false
-scale = Vector2(2, 2)
 texture = ExtResource("2_0yo5v")

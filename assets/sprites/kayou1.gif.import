@@ -1,0 +1,14 @@
+[remap]
+
+importer="import_gif_to_animated_texture"
+type="AnimatedTexture"
+uid="uid://bp0yeuho6pijo"
+path="res://.godot/imported/kayou1.gif-58775861620a4639caddf2d9011009c2.tres"
+
+[deps]
+
+source_file="res://assets/sprites/kayou1.gif"
+dest_files=["res://.godot/imported/kayou1.gif-58775861620a4639caddf2d9011009c2.tres"]
+
+[params]
+

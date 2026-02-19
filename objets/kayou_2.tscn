@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cang2o443drdq"]
+
+[ext_resource type="Texture2D" uid="uid://cy521m28e2rys" path="res://assets/sprites/kayou2.gif" id="1_123rn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uj5gv"]
+size = Vector2(190, 64)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3v8gx"]
+radius = 31.1448
+
+[node name="kayou_2" type="StaticBody2D"]
+
+[node name="Kayou2" type="Sprite2D" parent="."]
+position = Vector2(-14, -20)
+texture = ExtResource("1_123rn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 48)
+shape = SubResource("RectangleShape2D_uj5gv")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(37, -2)
+shape = SubResource("CircleShape2D_3v8gx")

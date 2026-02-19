@@ -11,7 +11,7 @@ script = ExtResource("1_lrxjj")
 
 [node name="Icon" type="Sprite2D" parent="."]
 modulate = Color(0.862373, 0.542333, 0, 0.517647)
-scale = Vector2(12, 12)
+scale = Vector2(8, 8)
 texture = ExtResource("2_v7ku2")
 
 [node name="player" parent="." instance=ExtResource("3_0ivdu")]

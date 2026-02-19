@@ -1,0 +1,14 @@
+[remap]
+
+importer="import_gif_to_animated_texture"
+type="AnimatedTexture"
+uid="uid://bqgtw6ofx4a2p"
+path="res://.godot/imported/grubbobese.gif-2aa82a090c77f369285165122a024eb4.tres"
+
+[deps]
+
+source_file="res://assets/sprites/grubbobese.gif"
+dest_files=["res://.godot/imported/grubbobese.gif-2aa82a090c77f369285165122a024eb4.tres"]
+
+[params]
+

@@ -3,8 +3,8 @@
 [ext_resource type="Script" uid="uid://bdsi1alrodnm5" path="res://objets/portal_right/portal_right.gd" id="1_xtfdg"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_xtfdg"]
-a = Vector2(1000, 1009)
-b = Vector2(1000, -1001)
+a = Vector2(512, 522)
+b = Vector2(512, -504)
 
 [node name="PortalRight" type="Area2D"]
 script = ExtResource("1_xtfdg")

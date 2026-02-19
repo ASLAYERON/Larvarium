@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cia15bkbdsopg"
+path="res://.godot/imported/crevassesud.gif-8253bc18e596982788a22ed45c1fafdc.tres"
+
+[deps]
+
+source_file="res://assets/sprites/crevassesud.gif"
+dest_files=["res://.godot/imported/crevassesud.gif-8253bc18e596982788a22ed45c1fafdc.tres"]
+
+[params]
+
+frames_per_second=30

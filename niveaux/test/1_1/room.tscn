@@ -1,20 +1,19 @@
-[gd_scene load_steps=8 format=3 uid="uid://cen54lv8g6vtl"]
+[gd_scene load_steps=12 format=4 uid="uid://cen54lv8g6vtl"]
 
 [ext_resource type="Script" uid="uid://cc055hxcm8pb5" path="res://niveaux/test/1_1/room.gd" id="1_pueer"]
-[ext_resource type="Texture2D" uid="uid://xeky0ip385x3" path="res://icon.svg" id="2_5rngs"]
 [ext_resource type="PackedScene" uid="uid://bvuv3oq5kec65" path="res://objets/player/player.tscn" id="3_gif1k"]
 [ext_resource type="PackedScene" uid="uid://y1w7guuthx47" path="res://objets/portal_left/portal_left.tscn" id="4_5rngs"]
 [ext_resource type="PackedScene" uid="uid://duocpikcx2b7v" path="res://objets/portal_right/portal_right.tscn" id="5_gif1k"]
 [ext_resource type="PackedScene" uid="uid://ciowfdrqw5j1l" path="res://objets/portal_up/portal_up.tscn" id="6_ddvip"]
 [ext_resource type="PackedScene" uid="uid://di0udf3bfjfyf" path="res://objets/portal_down/portal_down.tscn" id="7_pueer"]
+[ext_resource type="TileSet" uid="uid://ygewm8gnt86k" path="res://assets/ressources/ground_tilest.tres" id="8_cg72s"]
+[ext_resource type="PackedScene" uid="uid://4kcusbhb41v5" path="res://objets/kayou_1.tscn" id="8_xbsbw"]
+[ext_resource type="PackedScene" uid="uid://cang2o443drdq" path="res://objets/kayou_2.tscn" id="9_7lwdk"]
+[ext_resource type="Texture2D" uid="uid://cbk33qf0ryuu" path="res://assets/sprites/libereznico.gif" id="10_qld6y"]
+[ext_resource type="Texture2D" uid="uid://h7vrxyno1mu2" path="res://assets/sprites/plante9.gif" id="11_c6ykj"]
 
 [node name="1_1" type="Node2D"]
 script = ExtResource("1_pueer")
-
-[node name="Icon" type="Sprite2D" parent="."]
-modulate = Color(1, 0.362958, 0.562361, 0.517647)
-scale = Vector2(12, 12)
-texture = ExtResource("2_5rngs")
 
 [node name="player" parent="." instance=ExtResource("3_gif1k")]
 
@@ -25,3 +24,32 @@ texture = ExtResource("2_5rngs")
 [node name="PortalUp" parent="." instance=ExtResource("6_ddvip")]
 
 [node name="PortalDown" parent="." instance=ExtResource("7_pueer")]
+
+[node name="grass" type="TileMapLayer" parent="."]
+z_index = -2
+tile_map_data = PackedByteArray("AAABAP//AAABAAEAAAADAP//AAACAAEAAAACAP//AAABAAEAAAADAAAAAAACAAEAAAACAAAAAAABAAEAAAABAAAAAAABAAEAAAADAAEAAAACAAEAAAACAAEAAAABAAEAAAABAAEAAAABAAEAAAAAAAEAAAABAAEAAAD9/wAAAAABAAEAAAD9////AAABAAEAAAD8/wEAAAAAAAEAAAD8/wAAAAAAAAEAAAD8////AAAAAAEAAAAAAAAAAAABAAEAAAAAAP//AAABAAEAAAD//wAAAAABAAEAAAD/////AAABAAEAAAD+/wAAAAABAAEAAAD+////AAABAAEAAAADAP7/AAACAAEAAAADAP3/AAACAAEAAAACAP7/AAABAAEAAAACAP3/AAABAAEAAAABAP7/AAABAAEAAAABAP3/AAABAAEAAAAAAP7/AAABAAEAAAAAAP3/AAABAAEAAAD///7/AAABAAEAAAD///3/AAABAAEAAAD+//7/AAABAAEAAAD+//3/AAABAAEAAAD9//7/AAABAAEAAAD9//3/AAABAAEAAAD8//7/AAAAAAEAAAD8//3/AAAAAAEAAAADAAIAAAACAAEAAAACAAIAAAABAAEAAAABAAIAAAABAAEAAAAAAAIAAAABAAEAAAADAPz/AAACAAAAAAACAPz/AAABAAAAAAABAPz/AAABAAAAAAAAAPz/AAABAAAAAAD///z/AAABAAAAAAD+//z/AAABAAAAAAD9//z/AAABAAAAAAD8//z/AAAAAAAAAAADAAMAAAACAAIAAAACAAMAAAABAAIAAAABAAMAAAABAAIAAAAAAAMAAAABAAIAAAD//wMAAAABAAIAAAD+/wMAAAABAAIAAAD9/wMAAAABAAIAAAD8/wMAAAAAAAIAAAD8/wIAAAAAAAEAAAD//wIAAAABAAEAAAD//wEAAAABAAEAAAD+/wIAAAABAAEAAAD+/wEAAAABAAEAAAD9/wIAAAABAAEAAAD9/wEAAAABAAEAAAA=")
+tile_set = ExtResource("8_cg72s")
+
+[node name="kayou1" parent="." instance=ExtResource("8_xbsbw")]
+position = Vector2(294, 311)
+
+[node name="kayou2" parent="." instance=ExtResource("8_xbsbw")]
+position = Vector2(-362, 49)
+
+[node name="kayou_2" parent="." instance=ExtResource("9_7lwdk")]
+position = Vector2(198, -274)
+
+[node name="Libereznico" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(-294, -293)
+texture = ExtResource("10_qld6y")
+
+[node name="Libereznico2" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(247, 210)
+texture = ExtResource("10_qld6y")
+
+[node name="Plante9" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(380, -121)
+texture = ExtResource("11_c6ykj")

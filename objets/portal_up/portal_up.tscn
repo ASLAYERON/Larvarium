@@ -3,13 +3,14 @@
 [ext_resource type="Script" uid="uid://f4084ri1qn0o" path="res://objets/portal_up/portal_up.gd" id="1_gy84b"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_xtfdg"]
-a = Vector2(-1000, -990)
-b = Vector2(1000, -1001)
+a = Vector2(-511, -503)
+b = Vector2(512, -503)
 
 [node name="PortalUp" type="Area2D"]
 script = ExtResource("1_gy84b")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -6)
 shape = SubResource("SegmentShape2D_xtfdg")
 debug_color = Color(0.993006, 0, 0.102948, 1)
 

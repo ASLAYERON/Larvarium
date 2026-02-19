@@ -1,0 +1,14 @@
+[remap]
+
+importer="import_gif_to_animated_texture"
+type="AnimatedTexture"
+uid="uid://cbk33qf0ryuu"
+path="res://.godot/imported/libereznico.gif-c5663e1b012c40184327fba8be0a980f.tres"
+
+[deps]
+
+source_file="res://assets/sprites/libereznico.gif"
+dest_files=["res://.godot/imported/libereznico.gif-c5663e1b012c40184327fba8be0a980f.tres"]
+
+[params]
+

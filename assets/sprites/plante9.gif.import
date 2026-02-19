@@ -1,0 +1,14 @@
+[remap]
+
+importer="import_gif_to_animated_texture"
+type="AnimatedTexture"
+uid="uid://h7vrxyno1mu2"
+path="res://.godot/imported/plante9.gif-357ab944292d1afd38a56c33d0b99c0d.tres"
+
+[deps]
+
+source_file="res://assets/sprites/plante9.gif"
+dest_files=["res://.godot/imported/plante9.gif-357ab944292d1afd38a56c33d0b99c0d.tres"]
+
+[params]
+

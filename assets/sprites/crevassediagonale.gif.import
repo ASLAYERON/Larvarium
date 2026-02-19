@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://fggblwxj1hck"
+path="res://.godot/imported/crevassediagonale.gif-353497456f647379838ea9273c6bac86.tres"
+
+[deps]
+
+source_file="res://assets/sprites/crevassediagonale.gif"
+dest_files=["res://.godot/imported/crevassediagonale.gif-353497456f647379838ea9273c6bac86.tres"]
+
+[params]
+
+frames_per_second=30

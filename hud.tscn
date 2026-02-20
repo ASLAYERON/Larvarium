@@ -1,11 +1,12 @@
-[gd_scene format=3 uid="uid://dus43gq2q1dgn"]
+[gd_scene format=3 uid="uid://dn0w7f37jpdrh"]
 
 [ext_resource type="Script" uid="uid://850fh78msyh4" path="res://hud.gd" id="1_8sq4i"]
 [ext_resource type="PackedScene" uid="uid://b5svdibhdxae2" path="res://UI/inventory/inventory.tscn" id="1_64ctp"]
 [ext_resource type="PackedScene" uid="uid://c1s3hdhmnp44o" path="res://UI/minimap/minimap.tscn" id="2_8sq4i"]
-[ext_resource type="PackedScene" uid="uid://b0e6elteb8m66" path="res://mouse_item.tscn" id="4_640wx"]
+[ext_resource type="PackedScene" uid="uid://da783888vu22d" path="res://mouse_item.tscn" id="4_640wx"]
 
 [node name="Control" type="Control" unique_id=703844763]
+custom_minimum_size = Vector2(1, 0)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -41,3 +42,5 @@ grow_vertical = 1
 
 [node name="Mouse_item" parent="." unique_id=1384466643 instance=ExtResource("4_640wx")]
 layout_mode = 0
+offset_right = 32.0
+offset_bottom = 32.0

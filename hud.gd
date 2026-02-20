@@ -1,6 +1,7 @@
 extends Control
 
 
+
 var hovered_slots : Array = []
 
 var is_item_selected :bool = false

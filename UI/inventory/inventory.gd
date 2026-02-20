@@ -2,6 +2,7 @@ extends Control
 
 var master : Node 
 
+
 var inv_line = load("res://UI/minimap/minimap_line.tscn")
 var inv_slot = load("res://UI/inventory/inventory_slot.tscn")
 

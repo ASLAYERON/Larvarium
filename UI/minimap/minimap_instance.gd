@@ -30,6 +30,7 @@ func _on_button_pressed() -> void:
 
 
 func _on_button_mouse_entered() -> void:
+	print("hey")
 	master.slot_hovered(self)
 
 func _on_button_mouse_exited() -> void:
